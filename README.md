@@ -34,7 +34,13 @@ Our tic-tac-toe domain model centers on a `Game` class. Every instance of `Game`
 state = ["X", "O", "X", "", "O", "O", "", "", "X"]
 ```
 
-There's nothing for us to add to the existing `Game` class... _yet_... but there's plenty of other work to do! If you hop into the test suite, you'll see that we have some routes and controller actions to set up.
+There's nothing f# config/initializers/active_model_serializers.rb
+
+ActiveModelSerializers.config.tap do |c|
+  c.adapter = :json_api
+  c.jsonapi_include_toplevel_object = true
+  c.jsonapi_version = "1.0"
+endor us to add to the existing `Game` class... _yet_... but there's plenty of other work to do! If you hop into the test suite, you'll see that we have some routes and controller actions to set up.
 
 ### Routes and controllers and JSON, oh my!
 Most of the work required to set up the `GamesController` will be a straightforward review of the preceding ActiveModelSerializers and `to_json` labs. You'll need to set up routes and actions for the following API endpoints:

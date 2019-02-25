@@ -41,6 +41,10 @@ group :development, :test do
 
   # Adds step-by-step debugging and stack navigation capabilities to pry using byebug. To use, invoke pry normally.
   gem 'pry-byebug'
+  gem 'pry-rails'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'selenium-webdriver'
 end
 
 group :development do
