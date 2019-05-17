@@ -45,7 +45,7 @@ Most of the work required to set up the `GamesController` will be a straightforw
 
 ***HINT***: As you're working through the `GamesController` tests, you might happen upon some `MissingTemplate` errors. Remember that we're building an *API*, so we definitely don't need to add any templates for our `GamesController` actions. If you're having some trouble figuring it out, take a look back at previous labs, and, as always, _remember, remember the point of the `render`!_
 
-![V for Vendetta](https://user-images.githubusercontent.com/17556281/27201976-c7e3a00e-51ed-11e7-800b-e038f867ff01.gif)
+
 
 ### ActiveModelSerializers
 To ensure that our Rails API plays nicely with the forthcoming JavaScript front-end, we're relying on our old friend ActiveModelSerializers to serialize `Game` objects into JSON and back.
