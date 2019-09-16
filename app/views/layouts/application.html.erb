@@ -8,6 +8,9 @@
   </head>
 
   <body>
+  <%= form_tag games_path, method: :post do %>
+  <%= submit_tag 'New Game' %>
+  <% end %>
     <%= yield %>
   </body>
 </html>
